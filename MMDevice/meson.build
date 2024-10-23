@@ -44,7 +44,7 @@ mmdevice_public_headers = files(
 )
 # TODO Support installing public headers
 
-mmdevice_lib = static_library(
+mmdevice_lib = library(
     'MMDevice',
     sources: mmdevice_sources,
     include_directories: mmdevice_include_dir,

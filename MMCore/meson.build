@@ -96,7 +96,7 @@ mmcore_public_headers = files(
 
 # TODO Allow MMCore to be built as a shared library, too. For that, we'd need
 # to define the exported symbols on Windows (__declspec(dllexport)).
-mmcore_lib = static_library(
+mmcore_lib = library(
     'MMCore',
     sources: mmcore_sources,
     include_directories: mmcore_include_dir,
