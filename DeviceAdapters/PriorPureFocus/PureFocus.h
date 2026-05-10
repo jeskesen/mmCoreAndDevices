@@ -20,6 +20,7 @@
 #include "MMDevice.h"
 #include "DeviceBase.h"
 #include "DeviceThreads.h"
+#include <atomic>
 #include <string>
 #include <thread>
 

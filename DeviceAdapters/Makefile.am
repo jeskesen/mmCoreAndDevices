@@ -186,6 +186,7 @@ SUBDIRS = \
 	PrecisExcite \
 	Prior \
 	PriorLegacy \
+	PriorPureFocus \
 	RappLasers \
 	Sapphire \
 	Scientifica \
